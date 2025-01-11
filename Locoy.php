@@ -28,7 +28,7 @@ $time_interval  	    	= 1;				//发布时间间隔,单位为秒 。可设置随�
 $post_next      	    	= 'now';		    //now:发布时间=当前时间+间隔时间值 //next: 发布时间=最后一篇时间+间隔时间值										           	
 $post_ping      	    	= false;		    //发布后是否执行ping
 $translate_slug 	    	= false;		    //是否将中文标题转换为MD5值,如需开启请设置为true或MD5值长度,建议设置为大于10,小于33的数字。
-$secretWord     	    	= 'ZVP6VtL4MEswjpr';//接口密码,如果不需要密码,则设为$secretWord=false ;	
+$secretWord     	    	= '123456';//接口密码,如果不需要密码,则设为$secretWord=false ;	
 $checkTitle         		= false; 		    //检测标题是否重复
 $postformat 		      	= false;		    //开启文章形式
 $usePinyin              	= false;         	//开启分类和标签slug的拼音转换
